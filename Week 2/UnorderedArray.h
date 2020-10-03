@@ -77,7 +77,7 @@ public:
 		assert(m_array != NULL);
 
 		// Brute-force search
-		for (int i = 0; i < m_num; i++)
+		for (int i = 0; i < m_numElements; i++)
 		{
 			if (m_array[i] == val)
 			{
